@@ -49,14 +49,11 @@ namespace HelloAuckland
             {
                 MessageBox.Show("Login successful!", "Success");
 
-                // Optionally open another form here
-                // MainForm mainForm = new MainForm();
-                // mainForm.Show();
-                // this.Hide();
+                
             }
             else
             {
-                label1.Text = "Invalid username or password.";
+                label1.Text = "Invalid Details";
                 label1.ForeColor = Color.Red;
             }
         }
@@ -72,6 +69,21 @@ namespace HelloAuckland
         }
 
         private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form3_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
         {
 
         }
