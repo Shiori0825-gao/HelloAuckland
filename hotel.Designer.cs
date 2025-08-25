@@ -44,7 +44,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(179, 21);
+            this.label1.Location = new System.Drawing.Point(198, 21);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(523, 46);
             this.label1.TabIndex = 0;
@@ -67,7 +67,7 @@
             // 
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.LinkColor = System.Drawing.Color.DimGray;
-            this.linkLabel1.Location = new System.Drawing.Point(535, 147);
+            this.linkLabel1.Location = new System.Drawing.Point(581, 148);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(209, 20);
             this.linkLabel1.TabIndex = 3;
@@ -78,7 +78,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(535, 168);
+            this.label3.Location = new System.Drawing.Point(535, 180);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(663, 20);
             this.label3.TabIndex = 4;
@@ -102,7 +102,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(509, 143);
+            this.label4.Location = new System.Drawing.Point(534, 143);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(34, 25);
             this.label4.TabIndex = 6;
@@ -112,7 +112,7 @@
             // 
             this.pictureBox1.Location = new System.Drawing.Point(171, 103);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(345, 225);
+            this.pictureBox1.Size = new System.Drawing.Size(332, 225);
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
@@ -123,7 +123,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLight;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(988, 550);
+            this.ClientSize = new System.Drawing.Size(1148, 599);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label3);
