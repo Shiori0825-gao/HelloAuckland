@@ -16,5 +16,29 @@ namespace HelloAuckland
         {
             InitializeComponent();
         }
+
+        private void Taxi_Click(object sender, EventArgs e)
+        {
+            Taxi taxi = new Taxi();
+            taxi.Show();            
+        }
+
+        private void Train_Click(object sender, EventArgs e)
+        {
+            Train train = new Train();
+            train.Show();
+        }
+
+        private void Bus_Click(object sender, EventArgs e)
+        {
+            Bus bus = new Bus();
+            bus.Show();
+        }
+
+        private void Rent_Click(object sender, EventArgs e)
+        {
+            Rent rent = new Rent();
+            rent.Show();
+        }
     }
 }
