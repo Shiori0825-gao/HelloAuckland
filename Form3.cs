@@ -20,7 +20,7 @@ namespace HelloAuckland
 
             // Start with no error text.
             label1.Text = "";
-            label1.ForeColor = Color.Red;         // Use red only when showing an error
+                     
         }
         
 
@@ -54,7 +54,7 @@ namespace HelloAuckland
             else
             {
                 label1.Text = "Invalid Details";
-                label1.ForeColor = Color.Red;
+                label1.ForeColor = Color.White;
             }
         }
 
