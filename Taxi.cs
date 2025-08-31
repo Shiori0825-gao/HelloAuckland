@@ -12,9 +12,16 @@ namespace HelloAuckland
 {
     public partial class Taxi : Form
     {
+        Form2 form2;
         public Taxi()
         {
             InitializeComponent();
         }
+
+        private void pictureBox8_Click(object sender, EventArgs e)
+        {            
+            this.Hide();
+        }
+       
     }
 }
