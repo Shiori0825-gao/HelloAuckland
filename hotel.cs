@@ -24,7 +24,9 @@ namespace HelloAuckland
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Booking Done");
+            HotelDetailsForm detailsForm = new HotelDetailsForm();
+            detailsForm.ShowDialog(); // opens the new form as a pop-up
+
         }
 
         private void Form4_Load(object sender, EventArgs e)
@@ -41,27 +43,21 @@ namespace HelloAuckland
 
         private void label2_Click(object sender, EventArgs e)
         {
-
+           
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            // Google Maps search URL for the address
-            string address = "4 Bay Road, Waiheke Island";
-            string mapsUrl = "https://www.google.com/maps/search/?api=1&query=" + Uri.EscapeDataString(address);
-
-            // Open in default browser
             System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo
             {
-                FileName = mapsUrl,
+                FileName = "https://www.google.com/maps/search/?api=1&query=Marina+Bay+Sands,+Singapore",
                 UseShellExecute = true
             });
-
         }
 
         private void label3_Click(object sender, EventArgs e)
         {
-
+          
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
