@@ -12,11 +12,13 @@ namespace HelloAuckland
 {
     public partial class Form3 : Form
     {
+        private userData save;
         public Form3()
         {
             InitializeComponent();
             AcceptButton = button1;               // Press Enter to submit
             textBox2.UseSystemPasswordChar = true; // Hide password as you type
+            save = new userData();
 
             // Start with no error text.
             label1.Text = "";
@@ -41,11 +43,11 @@ namespace HelloAuckland
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string username = textBox1.Text;
-            string password = textBox2.Text;
+            string username = textBox1.Text.Trim();
+            string password = textBox2.Text.Trim();
 
             // Dummy login check – replace with real logic later
-            if (username == "admin" && password == "1234")
+            if (save.acceptDetails(username, password))
             {
                 MessageBox.Show("Login successful!", "Success");
 
@@ -53,8 +55,9 @@ namespace HelloAuckland
             }
             else
             {
-                label1.Text = "Invalid Details";
-                label1.ForeColor = Color.White;
+                MessageBox.Show("Login Failed", "Fail");
+                //label1.Text = "Invalid Details";
+                //label1.ForeColor = Color.White;
             }
         }
 
@@ -84,6 +87,11 @@ namespace HelloAuckland
         }
 
         private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
         }
