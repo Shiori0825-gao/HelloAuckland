@@ -10,11 +10,18 @@ using System.Windows.Forms;
 
 namespace HelloAuckland
 {
-    public partial class Form1 : Form
+    public partial class Taxi : Form
     {
-        public Form1()
+        Form2 form2;
+        public Taxi()
         {
             InitializeComponent();
         }
+
+        private void pictureBox8_Click(object sender, EventArgs e)
+        {            
+            this.Hide();
+        }
+       
     }
 }
