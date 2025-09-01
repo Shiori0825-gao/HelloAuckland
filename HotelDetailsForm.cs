@@ -54,7 +54,7 @@ namespace HelloAuckland
                 MessageBox.Show("Failed to send email:\n" + ex.Message, "Error");
             }
 
-            this.Close();
+            
         }
 
         
