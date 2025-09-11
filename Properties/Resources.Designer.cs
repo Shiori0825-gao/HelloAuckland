@@ -59,15 +59,5 @@ namespace HelloAuckland.Properties {
                 resourceCulture = value;
             }
         }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap LOGIN__4_ {
-            get {
-                object obj = ResourceManager.GetObject("LOGIN (4)", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
     }
 }

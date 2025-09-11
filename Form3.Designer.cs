@@ -1,4 +1,6 @@
-﻿namespace HelloAuckland
+﻿using System.Drawing;
+
+namespace HelloAuckland
 {
     partial class Form3
     {
@@ -144,7 +146,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(25F, 44F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.BackgroundImage = global::HelloAuckland.Properties.Resources.LOGIN__4_;
+            this.BackgroundImage = Image.FromFile("Images/LoginBackGround.png");
             this.ClientSize = new System.Drawing.Size(1382, 831);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.pictureBox1);
