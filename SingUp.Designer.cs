@@ -1,4 +1,6 @@
-﻿namespace HelloAuckland
+﻿using System.Drawing;
+
+namespace HelloAuckland
 {
     partial class SingUp
     {
@@ -92,7 +94,7 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.pictureBox1.BackgroundImage = global::HelloAuckland.Properties.Resources.SignUpButton;
+            this.pictureBox1.BackgroundImage = Image.FromFile("Images/SignUpButton.png");
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox1.Location = new System.Drawing.Point(516, 717);
             this.pictureBox1.Name = "pictureBox1";
@@ -106,9 +108,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::HelloAuckland.Properties.Resources.SingUp;
+            this.BackgroundImage = Image.FromFile("Images/SingUpForm.png");
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1280, 882);
+            this.ClientSize = new System.Drawing.Size(1280, 881);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.txtConfirm);
             this.Controls.Add(this.txtPassword);
