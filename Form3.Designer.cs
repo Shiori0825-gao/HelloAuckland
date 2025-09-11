@@ -144,7 +144,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(25F, 44F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImage = global::HelloAuckland.Properties.Resources.LOGIN__4_;
             this.ClientSize = new System.Drawing.Size(1382, 831);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.pictureBox1);
