@@ -35,15 +35,7 @@ namespace HelloAuckland
 
         private void pictureBox1_Click_1(object sender, EventArgs e)
         {
-            string url = "https://maps.app.goo.gl/7H83VUNvpZzEQH9e9";
-            try
-            {
-                Process.Start(new ProcessStartInfo(url) { UseShellExecute = true });
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Unable to open link: " + ex.Message);
-            }
+            
         }
 
         private void restaurants_Load(object sender, EventArgs e)
@@ -62,30 +54,17 @@ namespace HelloAuckland
 
         private void linkLabel4_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            System.Diagnostics.Process.Start(new ProcessStartInfo(e.Link.LinkData.ToString()) { UseShellExecute = true });
+           
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string url = "https://maps.app.goo.gl/7H83VUNvpZzEQH9e9";
-            try
-            {
-                Process.Start(new ProcessStartInfo(url) { UseShellExecute = true });
-            }
-            catch (Exception ex)
-            { }
+            
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            string url = "https://www.google.com/maps/dir//Commercial+Bay+Level+2%2F172+Quay+Street,+Auckland+Central,+Auckland+1010/@-36.8439478,174.6837413,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x6d0d4753350cffd9:0x6c9bbbf68f70aa95!2m2!1d174.7661423!2d-36.8439762?entry=ttu&g_ep=EgoyMDI1MDkwOC4wIKXMDSoASAFQAw%3D%3D";
-            try
-            {
-                Process.Start(new ProcessStartInfo(url) { UseShellExecute = true });
-            }
-            catch (Exception ex)
-            {
-            }
+            
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -111,6 +90,41 @@ namespace HelloAuckland
         private void label8_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label12_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label13_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+            
+
+        private void label14_Click(object sender, EventArgs e)
+        {
+            string url = "https://www.google.com/maps/place/Origine+Bistro/@-36.8434055,174.7630167,17z/data=!3m1!5s0x6d0d47f08e4d2a67:0xef8dbba5ca11fa31!4m6!3m5!1s0x6d0d4753350cffd9:0x6c9bbbf68f70aa95!8m2!3d-36.8439762!4d174.7661423!16s%2Fg%2F11t4xxp6bg?entry=ttu&g_ep=EgoyMDI1MDkwOC4wIKXMDSoASAFQAw%3D%3D";
+            try
+            {
+                Process.Start(new ProcessStartInfo(url) { UseShellExecute = true });
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Unable to open link: " + ex.Message);
+            }
         }
     }
 }
