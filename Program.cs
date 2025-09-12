@@ -16,7 +16,7 @@ namespace HelloAuckland
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new SingUp());
+            Application.Run(new Form3());
         }
     }
 }
