@@ -1,4 +1,7 @@
-﻿namespace HelloAuckland
+﻿using System.Drawing;
+using System.IO;
+
+namespace HelloAuckland
 {
     partial class Form4
     {
@@ -214,40 +217,37 @@
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Image = global::HelloAuckland.Properties.Resources.Hotel2;
+            this.pictureBox4.Image = Image.FromFile("Images/Hotel2.jpg");  
             this.pictureBox4.Location = new System.Drawing.Point(776, 38);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(291, 191);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 1;
             this.pictureBox4.TabStop = false;
-            this.pictureBox4.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = global::HelloAuckland.Properties.Resources.Hotel3;
+            this.pictureBox3.Image = Image.FromFile("Images/Hotel3.jpg");
             this.pictureBox3.Location = new System.Drawing.Point(35, 343);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(291, 191);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 1;
             this.pictureBox3.TabStop = false;
-            this.pictureBox3.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::HelloAuckland.Properties.Resources.Hotel1;
+            this.pictureBox1.Image = Image.FromFile("Images/Hotel1.jpg");
             this.pictureBox1.Location = new System.Drawing.Point(12, 70);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(291, 191);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::HelloAuckland.Properties.Resources.hero_auckland_jpg__1_;
+            this.pictureBox2.Image = Image.FromFile("Images/HotelBackGround.png");
             this.pictureBox2.Location = new System.Drawing.Point(-16, -21);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(1177, 642);

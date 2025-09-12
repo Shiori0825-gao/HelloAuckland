@@ -35,12 +35,6 @@ namespace HelloAuckland
 
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-            pictureBox1.Image = Properties.Resources.hotel;
-            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
-        }
-
         private void label2_Click(object sender, EventArgs e)
         {
            
