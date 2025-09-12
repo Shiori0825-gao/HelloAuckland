@@ -1,4 +1,6 @@
-﻿namespace HelloAuckland
+﻿using System.Drawing;
+
+namespace HelloAuckland
 {
     partial class Train
     {
@@ -62,7 +64,7 @@
             // 
             // pictureBox9
             // 
-            this.pictureBox9.Image = global::HelloAuckland.Properties.Resources._09A77FF1_AF9F_476B_BF9C_3AD6DD24B4DE_;
+            this.pictureBox9.Image = Image.FromFile("Images/TransportTopUp.png");//_09A77FF1_AF9F_476B_BF9C_3AD6DD24B4DE_;
             this.pictureBox9.Location = new System.Drawing.Point(143, 4300);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(895, 397);
@@ -72,7 +74,7 @@
             // 
             // pictureBox6
             // 
-            this.pictureBox6.Image = global::HelloAuckland.Properties.Resources._50A5178A_AE9B_4B9C_8495_F42311C50561_;
+            this.pictureBox6.Image = Image.FromFile("Images/TransportGetCard.png"); //_50A5178A_AE9B_4B9C_8495_F42311C50561_; 
             this.pictureBox6.Location = new System.Drawing.Point(143, 3663);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(895, 528);
@@ -82,7 +84,7 @@
             // 
             // pictureBox7
             // 
-            this.pictureBox7.Image = global::HelloAuckland.Properties.Resources._DEE1E89E_5BE0_4A9D_BED3_5CBE35705656_;
+            this.pictureBox7.Image = Image.FromFile("Images/TransportWhereToBuy.png");//_DEE1E89E_5BE0_4A9D_BED3_5CBE35705656_;
             this.pictureBox7.Location = new System.Drawing.Point(143, 2954);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(895, 608);
@@ -92,7 +94,7 @@
             // 
             // pictureBox5
             // 
-            this.pictureBox5.Image = global::HelloAuckland.Properties.Resources._4;
+            this.pictureBox5.Image = Image.FromFile("Images/4.png");
             this.pictureBox5.Location = new System.Drawing.Point(143, 229);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(895, 161);
@@ -102,7 +104,7 @@
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Image = global::HelloAuckland.Properties.Resources._3;
+            this.pictureBox4.Image = Image.FromFile("Images/3.png");
             this.pictureBox4.Location = new System.Drawing.Point(143, 2527);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(895, 333);
@@ -112,7 +114,7 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = global::HelloAuckland.Properties.Resources._2;
+            this.pictureBox3.Image = Image.FromFile("Images/2.png");
             this.pictureBox3.Location = new System.Drawing.Point(143, 482);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(1030, 610);
@@ -122,7 +124,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::HelloAuckland.Properties.Resources._1;
+            this.pictureBox2.Image = Image.FromFile("Images/1.png");
             this.pictureBox2.Location = new System.Drawing.Point(143, 1197);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(895, 599);
@@ -132,7 +134,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::HelloAuckland.Properties.Resources._5;
+            this.pictureBox1.Image = Image.FromFile("Images/5.png"); ;
             this.pictureBox1.Location = new System.Drawing.Point(143, 1902);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(895, 520);
@@ -142,7 +144,7 @@
             // 
             // pictureBox8
             // 
-            this.pictureBox8.Image = global::HelloAuckland.Properties.Resources._7D37AF3A_EDBF_4B53_A5A2_63ED84630BFD_;
+            this.pictureBox8.Image = Image.FromFile("Images/13.png"); ;
             this.pictureBox8.Location = new System.Drawing.Point(12, 83);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(51, 49);

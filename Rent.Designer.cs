@@ -1,4 +1,6 @@
-﻿namespace HelloAuckland
+﻿using System.Drawing;
+
+namespace HelloAuckland
 {
     partial class Rent
     {
@@ -43,7 +45,7 @@
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Image = global::HelloAuckland.Properties.Resources._9;
+            this.pictureBox4.Image = Image.FromFile("Images/9.png"); ;
             this.pictureBox4.Location = new System.Drawing.Point(143, 229);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(889, 992);
@@ -53,7 +55,7 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = global::HelloAuckland.Properties.Resources._8;
+            this.pictureBox3.Image = Image.FromFile("Images/8.png");
             this.pictureBox3.Location = new System.Drawing.Point(143, 1310);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(889, 761);
@@ -63,7 +65,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::HelloAuckland.Properties.Resources._7;
+            this.pictureBox2.Image = Image.FromFile("Images/7.png");
             this.pictureBox2.Location = new System.Drawing.Point(143, 2157);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(1024, 435);
@@ -73,7 +75,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::HelloAuckland.Properties.Resources._6;
+            this.pictureBox1.Image = Image.FromFile("Images/6.png");
             this.pictureBox1.Location = new System.Drawing.Point(143, 2683);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(1024, 343);
@@ -83,7 +85,7 @@
             // 
             // pictureBox8
             // 
-            this.pictureBox8.Image = global::HelloAuckland.Properties.Resources._7D37AF3A_EDBF_4B53_A5A2_63ED84630BFD_;
+            this.pictureBox8.Image = Image.FromFile("Images/13.png"); ;
             this.pictureBox8.Location = new System.Drawing.Point(12, 83);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(51, 49);

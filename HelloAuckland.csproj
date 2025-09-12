@@ -135,100 +135,144 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\photo_2025-08-26_17-39-37.jpg" />
+    <Content Include="Images\TransportBackGround.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\bus.jpg" />
+    <Content Include="Images\bus.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\rent.jpg" />
+    <Content Include="Images\rent.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\train.jpg" />
+    <Content Include="Images\train.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\taxi.jpg" />
+    <Content Include="Images\taxi.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\{7850B9A8-1AF8-4538-8865-AF76048269A5}.png" />
+    <Content Include="Images\TransportTrainMap.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\{C7D289E5-7317-4FC1-9BCC-6FB791046E6A}.png" />
+    <Content Include="Images\19.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\{F3012A02-2E81-450B-9868-D8A471CF77EF}.png" />
+    <Content Include="Images\18.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\{61DBBDC8-8169-495D-AD39-120FE9928F49}.png" />
+    <Content Include="Images\16.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\{61DBBDC8-8169-495D-AD39-120FE9928F49}1.png" />
+    <Content Include="Images\17.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\{53000230-D1E4-4714-8F64-AB2D77CED322}.png" />
+    <Content Include="Images\15.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\{9253DED4-56FC-4F0D-AC08-534EAE40E231}.png" />
+    <Content Include="Images\14.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\{F8F5704A-3C5D-4135-859D-453DD406A959}.png" />
+    <Content Include="Images\13.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\{9E2C4513-C77A-4B68-8EFC-A69C1D05DBAF}.png" />
+    <Content Include="Images\12.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\{7D37AF3A-EDBF-4B53-A5A2-63ED84630BFD}.png" />
+    <Content Include="Images\11.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\{93FD3673-D49C-4DB8-8C80-D05C73BA1F62}.png" />
+    <Content Include="Images\10.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\{7CE87713-F83A-404A-BEFD-71CFD3809E07}.png" />
+    <Content Include="Images\TransportWhereToBuy.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\{D8EB7FF2-B0B6-4984-BF1E-39B2CF5AA2F7}.png" />
+    <Content Include="Images\TransportGetCard.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\{DEE1E89E-5BE0-4A9D-BED3-5CBE35705656}.png" />
+    <Content Include="Images\TransportTopUp.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\{50A5178A-AE9B-4B9C-8495-F42311C50561}.png" />
+    <Content Include="Images\1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\{09A77FF1-AF9F-476B-BF9C-3AD6DD24B4DE}.png" />
+    <Content Include="Images\5.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\auckland-transport-train-and-rapid-bus-network-map.jpg" />
+    <Content Include="Images\2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\{92232F02-7789-4753-9CE4-07FF60F0A9EA}.png" />
+    <Content Include="Images\3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\1.png" />
+    <Content Include="Images\4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\5.png" />
+    <Content Include="Images\6.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\2.png" />
+    <Content Include="Images\7.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\3.png" />
+    <Content Include="Images\8.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\4.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\6.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\7.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\8.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\9.png" />
+    <Content Include="Images\9.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

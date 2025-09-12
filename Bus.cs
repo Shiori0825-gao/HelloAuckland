@@ -11,8 +11,7 @@ using System.Windows.Forms;
 namespace HelloAuckland
 {
     public partial class Bus : Form        
-    {
-        Form2 form2;
+    {    
         public Bus()
         {
             InitializeComponent();

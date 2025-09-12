@@ -12,7 +12,6 @@ namespace HelloAuckland
 {
     public partial class Train : Form
     {
-        Form2 form2;
         public Train()
         {
             InitializeComponent();            

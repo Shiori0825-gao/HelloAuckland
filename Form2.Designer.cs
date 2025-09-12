@@ -1,4 +1,6 @@
-﻿namespace HelloAuckland
+﻿using System.Drawing;
+
+namespace HelloAuckland
 {
     partial class Form2
     {
@@ -37,7 +39,7 @@
             // 
             // Taxi
             // 
-            this.Taxi.BackgroundImage = global::HelloAuckland.Properties.Resources.taxi;
+            this.Taxi.BackgroundImage = Image.FromFile("Images/taxi.jpg");
             this.Taxi.Location = new System.Drawing.Point(323, 147);
             this.Taxi.Name = "Taxi";
             this.Taxi.Size = new System.Drawing.Size(270, 250);
@@ -47,7 +49,7 @@
             // 
             // Train
             // 
-            this.Train.BackgroundImage = global::HelloAuckland.Properties.Resources.train;
+            this.Train.BackgroundImage = Image.FromFile("Images/train.jpg");
             this.Train.Location = new System.Drawing.Point(670, 147);
             this.Train.Name = "Train";
             this.Train.Size = new System.Drawing.Size(270, 250);
@@ -57,7 +59,7 @@
             // 
             // Bus
             // 
-            this.Bus.BackgroundImage = global::HelloAuckland.Properties.Resources.bus;
+            this.Bus.BackgroundImage = Image.FromFile("Images/bus.jpg");
             this.Bus.Location = new System.Drawing.Point(323, 450);
             this.Bus.Name = "Bus";
             this.Bus.Size = new System.Drawing.Size(270, 250);
@@ -67,7 +69,7 @@
             // 
             // Rent
             // 
-            this.Rent.BackgroundImage = global::HelloAuckland.Properties.Resources.rent;
+            this.Rent.BackgroundImage = Image.FromFile("Images/rent.jpg");
             this.Rent.Location = new System.Drawing.Point(670, 450);
             this.Rent.Name = "Rent";
             this.Rent.Size = new System.Drawing.Size(270, 250);
@@ -79,7 +81,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::HelloAuckland.Properties.Resources.photo_2025_08_26_17_39_37;
+            this.BackgroundImage = Image.FromFile("Images/TransportBackGround.jpg");
             this.ClientSize = new System.Drawing.Size(1280, 848);
             this.Controls.Add(this.Rent);
             this.Controls.Add(this.Bus);
