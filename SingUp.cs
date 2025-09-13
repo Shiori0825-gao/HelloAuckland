@@ -18,6 +18,8 @@ namespace HelloAuckland
         public SingUp()
         {
             InitializeComponent();
+            txtPassword.UseSystemPasswordChar = true; // Hide password as you type
+            txtConfirm.UseSystemPasswordChar = true;
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -31,13 +33,13 @@ namespace HelloAuckland
             // 1. Проверяем поля
             if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(email) || string.IsNullOrEmpty(password) || string.IsNullOrEmpty(confirm))                
             {
-                MessageBox.Show("Все поля обязательны.");
+                MessageBox.Show("Fill in all fields.");
                 return;
             }
 
             if (password != confirm)
             {
-                MessageBox.Show("Пароли не совпадают.");
+                MessageBox.Show("Passwords do not match.");
                 return;
             }
 
@@ -56,7 +58,7 @@ namespace HelloAuckland
                         long count = (long)checkCmd.ExecuteScalar();
                         if (count > 0)
                         {
-                            MessageBox.Show("Email уже зарегистрирован!");
+                            MessageBox.Show("Email was already registered!");
                             return;
                         }
                     }
@@ -67,19 +69,20 @@ namespace HelloAuckland
                     {
                         cmd.Parameters.AddWithValue("@Username", username);
                         cmd.Parameters.AddWithValue("@Email", email);
-                        cmd.Parameters.AddWithValue("@Password", password); // Пока в чистом виде (позже сделаем хэш)
+                        string passwordHash = BCrypt.Net.BCrypt.HashPassword(password);
+                        cmd.Parameters.AddWithValue("@Password", passwordHash);
                         int result = cmd.ExecuteNonQuery();
 
                         if (result > 0)
-                            MessageBox.Show("Регистрация прошла успешно!");
+                            MessageBox.Show("Registration succesfull!");
                         else
-                            MessageBox.Show("Ошибка при регистрации.");
+                            MessageBox.Show("Error during registration.");
                     }
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Ошибка: " + ex.Message);
+                MessageBox.Show("Error: " + ex.Message);
             }
         }
 
