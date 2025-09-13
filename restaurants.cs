@@ -126,5 +126,33 @@ namespace HelloAuckland
                 MessageBox.Show("Unable to open link: " + ex.Message);
             }
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            bookingTable bookingForm = new bookingTable();
+            bookingForm.ShowDialog(); // modal
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            bookingTable bookingForm = new bookingTable();
+            bookingForm.ShowDialog(); // modal
+        }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+            bookingTable bookingForm = new bookingTable();
+            bookingForm.ShowDialog(); // modal
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label16_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

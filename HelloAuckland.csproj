@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="bookingTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bookingTable.Designer.cs">
+      <DependentUpon>bookingTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +90,9 @@
     <Compile Include="restaurants.Designer.cs">
       <DependentUpon>restaurants.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="bookingTable.resx">
+      <DependentUpon>bookingTable.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
