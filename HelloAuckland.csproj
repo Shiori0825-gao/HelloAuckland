@@ -120,5 +120,17 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Soul-bar-and-Bistro-Auckland-supplied-5-1320x607.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Origine-commercial-bay-credit-Josh-Griggs-1320x607.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ada-restaurant-grey-lynn-1320x607.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Soul-bar-and-Bistro-Auckland-supplied-5-1320x6071.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

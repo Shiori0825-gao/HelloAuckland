@@ -104,12 +104,20 @@ namespace HelloAuckland
 
         private void label12_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void label13_Click(object sender, EventArgs e)
         {
-           
+            string url = "https://www.google.com/maps/place/Prego+Restaurant/@-36.852697,174.744828,16z/data=!3m1!4b1!4m6!3m5!1s0x6d0d47911e847c43:0xc79e13247819af91!8m2!3d-36.852697!4d174.744828!16s%2Fg%2F1v27vp9t?entry=ttu&g_ep=EgoyMDI1MDkxMC4wIKXMDSoASAFQAw%3D%3D";
+            try
+            {
+                Process.Start(new ProcessStartInfo(url) { UseShellExecute = true });
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Unable to open link: " + ex.Message);
+            }
         }
 
             
@@ -153,6 +161,19 @@ namespace HelloAuckland
         private void label16_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void label15_Click(object sender, EventArgs e)
+        {
+            string url = "https://www.google.com/maps/place/Soul+Bar+%26+Bistro/@-36.8434012,174.7604418,17z/data=!3m1!4b1!4m6!3m5!1s0x6d0d47f9ddb9f84b:0xf9553168111f7fe8!8m2!3d-36.8434055!4d174.7630167!16s%2Fg%2F1tg2dp7s?entry=ttu&g_ep=EgoyMDI1MDkxMC4wIKXMDSoASAFQAw%3D%3D";
+            try
+            {
+                Process.Start(new ProcessStartInfo(url) { UseShellExecute = true });
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Unable to open link: " + ex.Message);
+            }
         }
     }
 }

@@ -28,12 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(restaurants));
             this.linkLabel3 = new System.Windows.Forms.LinkLabel();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -52,9 +48,12 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.label16 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // linkLabel3
@@ -76,36 +75,6 @@
             this.label1.TabIndex = 7;
             this.label1.Text = "Popular Restaurants in Auckland";
             this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(31, 86);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(450, 241);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 8;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(31, 359);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(450, 212);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 9;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(34, 607);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(447, 228);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 10;
-            this.pictureBox3.TabStop = false;
             // 
             // label2
             // 
@@ -136,7 +105,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label4.Location = new System.Drawing.Point(496, 614);
+            this.label4.Location = new System.Drawing.Point(484, 614);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(107, 46);
             this.label4.TabIndex = 13;
@@ -276,13 +245,14 @@
             this.label15.Size = new System.Drawing.Size(106, 29);
             this.label15.TabIndex = 24;
             this.label15.Text = "Location";
+            this.label15.Click += new System.EventHandler(this.label15_Click);
             // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Bell MT", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(874, 214);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(159, 31);
+            this.button1.Size = new System.Drawing.Size(159, 38);
             this.button1.TabIndex = 25;
             this.button1.Text = "Book Now";
             this.button1.UseVisualStyleBackColor = true;
@@ -293,7 +263,7 @@
             this.button2.Font = new System.Drawing.Font("Bell MT", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(874, 424);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(159, 31);
+            this.button2.Size = new System.Drawing.Size(159, 38);
             this.button2.TabIndex = 26;
             this.button2.Text = "Book Now";
             this.button2.UseVisualStyleBackColor = true;
@@ -304,7 +274,7 @@
             this.button3.Font = new System.Drawing.Font("Bell MT", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.Location = new System.Drawing.Point(874, 767);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(159, 31);
+            this.button3.Size = new System.Drawing.Size(159, 38);
             this.button3.TabIndex = 27;
             this.button3.Text = "Book Now";
             this.button3.UseVisualStyleBackColor = true;
@@ -321,6 +291,36 @@
             this.label16.Size = new System.Drawing.Size(0, 22);
             this.label16.TabIndex = 28;
             this.label16.Click += new System.EventHandler(this.label16_Click);
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::HelloAuckland.Properties.Resources.Soul_bar_and_Bistro_Auckland_supplied_5_1320x6071;
+            this.pictureBox3.Location = new System.Drawing.Point(34, 607);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(447, 228);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 10;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::HelloAuckland.Properties.Resources.ada_restaurant_grey_lynn_1320x607;
+            this.pictureBox2.Location = new System.Drawing.Point(31, 359);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(450, 212);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 9;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::HelloAuckland.Properties.Resources.Origine_commercial_bay_credit_Josh_Griggs_1320x607;
+            this.pictureBox1.Location = new System.Drawing.Point(31, 86);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(450, 241);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 8;
+            this.pictureBox1.TabStop = false;
             // 
             // restaurants
             // 
@@ -355,9 +355,9 @@
             this.Name = "restaurants";
             this.Text = "sss";
             this.Load += new System.EventHandler(this.restaurants_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
