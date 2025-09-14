@@ -1,4 +1,6 @@
-﻿namespace HelloAuckland
+﻿using System.Drawing;
+
+namespace HelloAuckland
 {
     partial class Form2
     {
@@ -28,12 +30,78 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
+            this.Taxi = new System.Windows.Forms.Button();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.Train = new System.Windows.Forms.Button();
+            this.Bus = new System.Windows.Forms.Button();
+            this.Rent = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // Taxi
+            // 
+            this.Taxi.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Taxi.BackgroundImage")));
+            this.Taxi.Location = new System.Drawing.Point(323, 147);
+            this.Taxi.Name = "Taxi";
+            this.Taxi.Size = new System.Drawing.Size(270, 250);
+            this.Taxi.TabIndex = 0;
+            this.Taxi.UseVisualStyleBackColor = true;
+            this.Taxi.Click += new System.EventHandler(this.Taxi_Click);
+            // 
+            // Train
+            // 
+            this.Train.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Train.BackgroundImage")));
+            this.Train.Location = new System.Drawing.Point(670, 147);
+            this.Train.Name = "Train";
+            this.Train.Size = new System.Drawing.Size(270, 250);
+            this.Train.TabIndex = 1;
+            this.Train.UseVisualStyleBackColor = true;
+            this.Train.Click += new System.EventHandler(this.Train_Click);
+            // 
+            // Bus
+            // 
+            this.Bus.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Bus.BackgroundImage")));
+            this.Bus.Location = new System.Drawing.Point(323, 450);
+            this.Bus.Name = "Bus";
+            this.Bus.Size = new System.Drawing.Size(270, 250);
+            this.Bus.TabIndex = 2;
+            this.Bus.UseVisualStyleBackColor = true;
+            this.Bus.Click += new System.EventHandler(this.Bus_Click);
+            // 
+            // Rent
+            // 
+            this.Rent.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Rent.BackgroundImage")));
+            this.Rent.Location = new System.Drawing.Point(670, 450);
+            this.Rent.Name = "Rent";
+            this.Rent.Size = new System.Drawing.Size(270, 250);
+            this.Rent.TabIndex = 3;
+            this.Rent.UseVisualStyleBackColor = true;
+            this.Rent.Click += new System.EventHandler(this.Rent_Click);
+            // 
+            // Form2
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(1280, 848);
+            this.Controls.Add(this.Rent);
+            this.Controls.Add(this.Bus);
+            this.Controls.Add(this.Train);
+            this.Controls.Add(this.Taxi);
+            this.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Name = "Form2";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form2";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button Taxi;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private System.Windows.Forms.Button Train;
+        private System.Windows.Forms.Button Bus;
+        private System.Windows.Forms.Button Rent;
     }
 }
