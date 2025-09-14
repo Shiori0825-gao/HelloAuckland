@@ -30,6 +30,7 @@ namespace HelloAuckland
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             this.Taxi = new System.Windows.Forms.Button();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.Train = new System.Windows.Forms.Button();
@@ -39,7 +40,7 @@ namespace HelloAuckland
             // 
             // Taxi
             // 
-            this.Taxi.BackgroundImage = Image.FromFile("Images/taxi.jpg");
+            this.Taxi.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Taxi.BackgroundImage")));
             this.Taxi.Location = new System.Drawing.Point(323, 147);
             this.Taxi.Name = "Taxi";
             this.Taxi.Size = new System.Drawing.Size(270, 250);
@@ -49,7 +50,7 @@ namespace HelloAuckland
             // 
             // Train
             // 
-            this.Train.BackgroundImage = Image.FromFile("Images/train.jpg");
+            this.Train.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Train.BackgroundImage")));
             this.Train.Location = new System.Drawing.Point(670, 147);
             this.Train.Name = "Train";
             this.Train.Size = new System.Drawing.Size(270, 250);
@@ -59,7 +60,7 @@ namespace HelloAuckland
             // 
             // Bus
             // 
-            this.Bus.BackgroundImage = Image.FromFile("Images/bus.jpg");
+            this.Bus.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Bus.BackgroundImage")));
             this.Bus.Location = new System.Drawing.Point(323, 450);
             this.Bus.Name = "Bus";
             this.Bus.Size = new System.Drawing.Size(270, 250);
@@ -69,7 +70,7 @@ namespace HelloAuckland
             // 
             // Rent
             // 
-            this.Rent.BackgroundImage = Image.FromFile("Images/rent.jpg");
+            this.Rent.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Rent.BackgroundImage")));
             this.Rent.Location = new System.Drawing.Point(670, 450);
             this.Rent.Name = "Rent";
             this.Rent.Size = new System.Drawing.Size(270, 250);
@@ -81,7 +82,7 @@ namespace HelloAuckland
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = Image.FromFile("Images/TransportBackGround.jpg");
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1280, 848);
             this.Controls.Add(this.Rent);
             this.Controls.Add(this.Bus);

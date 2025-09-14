@@ -92,6 +92,7 @@ namespace HelloAuckland
             btnSignUp.ForeColor = Color.WhiteSmoke;
             btnSignUp.Anchor = AnchorStyles.Top | AnchorStyles.Right;
 
+
             btnLogin = new Button();
             btnLogin.Text = "Login";
             btnLogin.Size = new Size(110, 38);
@@ -103,6 +104,9 @@ namespace HelloAuckland
 
             this.Controls.Add(btnSignUp);
             this.Controls.Add(btnLogin);
+
+            btnSignUp.BringToFront();
+            btnLogin.BringToFront();
 
             // 右上角定位（跟随窗口大小）
             this.Resize += delegate
@@ -205,11 +209,12 @@ namespace HelloAuckland
                     case "CITY INFO":
                         new Form2().Show(); // 机场进城 & AT HOP 可在 Form2 里继续做
                         break;
+                        /*
                     case "SEE & DO":
                         new Form3().Show();
-                        break;
+                        break;*/
                     case "FOOD":
-                        new Form4().Show();
+                        new restaurants().Show();
                         break;
                     case "STAY":
                         new Form4().Show(); // 也可改成 Form5（若你将来新增）
@@ -266,8 +271,8 @@ namespace HelloAuckland
 
         private void WireEvents()
         {
-            btnSignUp.Click += (s, e) => MessageBox.Show("Open: Sign-up");
-            btnLogin.Click += (s, e) => MessageBox.Show("Open: Login");
+            btnSignUp.Click += (s, e) => new SingUp().Show();
+            btnLogin.Click += (s, e) => new Form3().Show();
         }
     }
 }
