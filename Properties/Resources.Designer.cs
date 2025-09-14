@@ -59,45 +59,5 @@ namespace HelloAuckland.Properties {
                 resourceCulture = value;
             }
         }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap ada_restaurant_grey_lynn_1320x607 {
-            get {
-                object obj = ResourceManager.GetObject("ada-restaurant-grey-lynn-1320x607", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Origine_commercial_bay_credit_Josh_Griggs_1320x607 {
-            get {
-                object obj = ResourceManager.GetObject("Origine-commercial-bay-credit-Josh-Griggs-1320x607", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Soul_bar_and_Bistro_Auckland_supplied_5_1320x607 {
-            get {
-                object obj = ResourceManager.GetObject("Soul-bar-and-Bistro-Auckland-supplied-5-1320x607", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Soul_bar_and_Bistro_Auckland_supplied_5_1320x6071 {
-            get {
-                object obj = ResourceManager.GetObject("Soul-bar-and-Bistro-Auckland-supplied-5-1320x6071", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
     }
 }

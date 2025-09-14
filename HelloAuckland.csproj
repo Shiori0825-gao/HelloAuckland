@@ -115,22 +115,25 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="Resources\alma.webp" />
+    <None Include="Images\alma.webp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Soul-bar-and-Bistro-Auckland-supplied-5-1320x607.jpg" />
+    <Content Include="Images\Origine_commercial_bay_credit_Josh_Griggs_1320x607.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Origine-commercial-bay-credit-Josh-Griggs-1320x607.jpg" />
+    <Content Include="Images\ada_restaurant_grey_lynn_1320x607.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\ada-restaurant-grey-lynn-1320x607.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Soul-bar-and-Bistro-Auckland-supplied-5-1320x6071.jpg" />
+    <Content Include="Images\Soul_bar_and_Bistro_Auckland.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

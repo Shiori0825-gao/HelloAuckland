@@ -1,4 +1,6 @@
-﻿namespace HelloAuckland
+﻿using System.Drawing;
+
+namespace HelloAuckland
 {
     partial class restaurants
     {
@@ -294,7 +296,7 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = global::HelloAuckland.Properties.Resources.Soul_bar_and_Bistro_Auckland_supplied_5_1320x6071;
+            this.pictureBox3.Image = Image.FromFile("Images/Soul_bar_and_Bistro_Auckland.jpg");
             this.pictureBox3.Location = new System.Drawing.Point(34, 607);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(447, 228);
@@ -304,7 +306,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::HelloAuckland.Properties.Resources.ada_restaurant_grey_lynn_1320x607;
+            this.pictureBox2.Image = Image.FromFile("Images/ada_restaurant_grey_lynn_1320x607.jpg");
             this.pictureBox2.Location = new System.Drawing.Point(31, 359);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(450, 212);
@@ -314,7 +316,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::HelloAuckland.Properties.Resources.Origine_commercial_bay_credit_Josh_Griggs_1320x607;
+            this.pictureBox1.Image = Image.FromFile("Images/Origine_commercial_bay_credit_Josh_Griggs_1320x607.jpg");
             this.pictureBox1.Location = new System.Drawing.Point(31, 86);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(450, 241);
