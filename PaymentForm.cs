@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
 
-namespace HelloAuckland   // ← 若命名空间不同请改这里
+namespace HelloAuckland   
 {
     public partial class PaymentForm : Form
     {
@@ -19,7 +19,7 @@ namespace HelloAuckland   // ← 若命名空间不同请改这里
 
         public PaymentForm(BookingRequest request)
         {
-            InitializeComponent();       // 模板生成的方法，保留
+            InitializeComponent();       
             _req = request ?? new BookingRequest();
 
             ConfigureForm();
@@ -51,14 +51,14 @@ namespace HelloAuckland   // ← 若命名空间不同请改这里
             for (int i = 0; i < 8; i++) layout.RowStyles.Add(new RowStyle(SizeType.AutoSize));
             this.Controls.Add(layout);
 
-            // 左侧：订单摘要
+           
             lblSummary = new Label { AutoSize = true, Font = new Font("Segoe UI", 10) };
             var grp = new GroupBox { Text = "Booking Summary", Font = new Font("Segoe UI", 10, FontStyle.Bold), Padding = new Padding(10), Dock = DockStyle.Fill };
             grp.Controls.Add(lblSummary);
             layout.Controls.Add(grp, 0, 0);
             layout.SetRowSpan(grp, 6);
 
-            // 右侧：表单
+            
             tbName = new TextBox(); tbCard = new TextBox();
             tbExpiry = new TextBox(); tbCvc = new TextBox();
             tbEmail = new TextBox();
@@ -113,7 +113,7 @@ namespace HelloAuckland   // ← 若命名空间不同请改这里
                 _req.CheckIn, _req.CheckOut, _req.Guests, _req.PriceTotal);
         }
 
-        // ---- 输入格式化与校验 ----
+        
         private void FormatCard()
         {
             string digits = new string(tbCard.Text.Where(char.IsDigit).ToArray());
@@ -172,7 +172,7 @@ namespace HelloAuckland   // ← 若命名空间不同请改这里
                 var pay = _svc.Pay(cardDigits, name, exp, cvc, _req.PriceTotal);
                 Result = pay;
 
-                // 成功 → 弹出确认页
+               
                 new BookingConfirmationForm(_req, Result).ShowDialog(this);
 
                 this.DialogResult = DialogResult.OK;
