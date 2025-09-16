@@ -31,6 +31,7 @@ namespace HelloAuckland
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SingUp));
             this.txtUsername = new System.Windows.Forms.TextBox();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.txtEmail = new System.Windows.Forms.TextBox();
@@ -45,7 +46,7 @@ namespace HelloAuckland
             this.txtUsername.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(217)))), ((int)(((byte)(217)))));
             this.txtUsername.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtUsername.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.txtUsername.Location = new System.Drawing.Point(493, 244);
+            this.txtUsername.Location = new System.Drawing.Point(530, 244);
             this.txtUsername.Multiline = true;
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(355, 36);
@@ -61,7 +62,7 @@ namespace HelloAuckland
             this.txtEmail.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(217)))), ((int)(((byte)(217)))));
             this.txtEmail.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.txtEmail.Location = new System.Drawing.Point(493, 370);
+            this.txtEmail.Location = new System.Drawing.Point(530, 370);
             this.txtEmail.Multiline = true;
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(355, 36);
@@ -73,7 +74,7 @@ namespace HelloAuckland
             this.txtPassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(217)))), ((int)(((byte)(217)))));
             this.txtPassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.txtPassword.Location = new System.Drawing.Point(493, 496);
+            this.txtPassword.Location = new System.Drawing.Point(530, 496);
             this.txtPassword.Multiline = true;
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(355, 36);
@@ -84,7 +85,7 @@ namespace HelloAuckland
             this.txtConfirm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(217)))), ((int)(((byte)(217)))), ((int)(((byte)(217)))));
             this.txtConfirm.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtConfirm.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.txtConfirm.Location = new System.Drawing.Point(493, 624);
+            this.txtConfirm.Location = new System.Drawing.Point(530, 621);
             this.txtConfirm.Multiline = true;
             this.txtConfirm.Name = "txtConfirm";
             this.txtConfirm.Size = new System.Drawing.Size(355, 36);
@@ -94,11 +95,11 @@ namespace HelloAuckland
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.pictureBox1.BackgroundImage = Image.FromFile("Images/SignUpButton.png");
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Location = new System.Drawing.Point(516, 717);
+            this.pictureBox1.Location = new System.Drawing.Point(559, 717);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(252, 85);
+            this.pictureBox1.Size = new System.Drawing.Size(273, 90);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
@@ -108,9 +109,9 @@ namespace HelloAuckland
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = Image.FromFile("Images/SingUpForm.png");
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1280, 881);
+            this.ClientSize = new System.Drawing.Size(1388, 882);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.txtConfirm);
             this.Controls.Add(this.txtPassword);
