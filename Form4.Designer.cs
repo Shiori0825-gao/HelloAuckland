@@ -76,7 +76,7 @@ namespace HelloAuckland
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label2.Location = new System.Drawing.Point(312, 70);
+            this.label2.Location = new System.Drawing.Point(500, 87);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(296, 32);
             this.label2.TabIndex = 2;
@@ -89,7 +89,7 @@ namespace HelloAuckland
             this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabel1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.linkLabel1.LinkColor = System.Drawing.Color.DimGray;
-            this.linkLabel1.Location = new System.Drawing.Point(358, 122);
+            this.linkLabel1.Location = new System.Drawing.Point(569, 136);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(227, 20);
             this.linkLabel1.TabIndex = 3;
@@ -101,7 +101,7 @@ namespace HelloAuckland
             // 
             this.label3.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.label3.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.label3.Location = new System.Drawing.Point(309, 171);
+            this.label3.Location = new System.Drawing.Point(502, 168);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(318, 85);
             this.label3.TabIndex = 4;
@@ -113,7 +113,7 @@ namespace HelloAuckland
             // 
             this.button1.BackColor = System.Drawing.Color.MidnightBlue;
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(309, 272);
+            this.button1.Location = new System.Drawing.Point(506, 289);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(212, 46);
             this.button1.TabIndex = 5;
@@ -126,7 +126,7 @@ namespace HelloAuckland
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label4.Location = new System.Drawing.Point(313, 118);
+            this.label4.Location = new System.Drawing.Point(504, 131);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(34, 25);
             this.label4.TabIndex = 6;
@@ -236,7 +236,7 @@ namespace HelloAuckland
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(12, 70);
+            this.pictureBox1.Location = new System.Drawing.Point(195, 87);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(291, 248);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
