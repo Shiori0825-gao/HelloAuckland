@@ -73,6 +73,46 @@ namespace HelloAuckland.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap istockphoto_1186548134_1024x1024 {
+            get {
+                object obj = ResourceManager.GetObject("istockphoto-1186548134-1024x1024", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap JPG_RESTAURANT {
+            get {
+                object obj = ResourceManager.GetObject("JPG RESTAURANT", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap JPG_RESTAURANT1 {
+            get {
+                object obj = ResourceManager.GetObject("JPG RESTAURANT1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap JPG_RESTAURANT2 {
+            get {
+                object obj = ResourceManager.GetObject("JPG RESTAURANT2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Origine_commercial_bay_credit_Josh_Griggs_1320x607 {
             get {
                 object obj = ResourceManager.GetObject("Origine-commercial-bay-credit-Josh-Griggs-1320x607", resourceCulture);

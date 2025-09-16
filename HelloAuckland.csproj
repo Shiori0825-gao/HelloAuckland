@@ -84,6 +84,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="restaurants.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,14 +100,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <EmbeddedResource Include="restaurants.resx">
       <DependentUpon>restaurants.cs</DependentUpon>
     </EmbeddedResource>
@@ -121,6 +121,15 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Soul-bar-and-Bistro-Auckland-supplied-5-1320x6071.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JPG RESTAURANT.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1186548134-1024x1024.jpg" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="Resources\Soul-bar-and-Bistro-Auckland-supplied-5-1320x607.jpg" />
   </ItemGroup>
   <ItemGroup>
@@ -128,9 +137,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\ada-restaurant-grey-lynn-1320x607.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Soul-bar-and-Bistro-Auckland-supplied-5-1320x6071.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
