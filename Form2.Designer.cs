@@ -30,77 +30,105 @@ namespace HelloAuckland
         /// </summary>
         private void InitializeComponent()
         {
-            this.Taxi = new System.Windows.Forms.Button();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.Train = new System.Windows.Forms.Button();
-            this.Bus = new System.Windows.Forms.Button();
-            this.Rent = new System.Windows.Forms.Button();
+            this.pictureBoxTaxi = new System.Windows.Forms.PictureBox();
+            this.pictureBoxTrain = new System.Windows.Forms.PictureBox();
+            this.pictureBoxBus = new System.Windows.Forms.PictureBox();
+            this.pictureBoxCar = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxTaxi)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxTrain)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxBus)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // Taxi
+            // pictureBoxTaxi
             // 
-            this.Taxi.BackgroundImage = Image.FromFile("Images/taxi.jpg");
-            this.Taxi.Location = new System.Drawing.Point(323, 147);
-            this.Taxi.Name = "Taxi";
-            this.Taxi.Size = new System.Drawing.Size(270, 250);
-            this.Taxi.TabIndex = 0;
-            this.Taxi.UseVisualStyleBackColor = true;
-            this.Taxi.Click += new System.EventHandler(this.Taxi_Click);
+            this.pictureBoxTaxi.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBoxTaxi.BackgroundImage")));
+            this.pictureBoxTaxi.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBoxTaxi.Location = new System.Drawing.Point(318, 113);
+            this.pictureBoxTaxi.Name = "pictureBoxTaxi";
+            this.pictureBoxTaxi.Size = new System.Drawing.Size(300, 300);
+            this.pictureBoxTaxi.TabIndex = 0;
+            this.pictureBoxTaxi.TabStop = false;
+            this.pictureBoxTaxi.Click += new System.EventHandler(this.pictureBoxTaxi_Click);
             // 
-            // Train
+            // pictureBoxTrain
             // 
-            this.Train.BackgroundImage = Image.FromFile("Images/train.jpg");
-            this.Train.Location = new System.Drawing.Point(670, 147);
-            this.Train.Name = "Train";
-            this.Train.Size = new System.Drawing.Size(270, 250);
-            this.Train.TabIndex = 1;
-            this.Train.UseVisualStyleBackColor = true;
-            this.Train.Click += new System.EventHandler(this.Train_Click);
+            this.pictureBoxTrain.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBoxTrain.BackgroundImage")));
+            this.pictureBoxTrain.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBoxTrain.Location = new System.Drawing.Point(785, 113);
+            this.pictureBoxTrain.Name = "pictureBoxTrain";
+            this.pictureBoxTrain.Size = new System.Drawing.Size(300, 300);
+            this.pictureBoxTrain.TabIndex = 1;
+            this.pictureBoxTrain.TabStop = false;
+            this.pictureBoxTrain.Click += new System.EventHandler(this.pictureBoxTrain_Click);
             // 
-            // Bus
+            // pictureBoxBus
             // 
-            this.Bus.BackgroundImage = Image.FromFile("Images/bus.jpg");
-            this.Bus.Location = new System.Drawing.Point(323, 450);
-            this.Bus.Name = "Bus";
-            this.Bus.Size = new System.Drawing.Size(270, 250);
-            this.Bus.TabIndex = 2;
-            this.Bus.UseVisualStyleBackColor = true;
-            this.Bus.Click += new System.EventHandler(this.Bus_Click);
+            this.pictureBoxBus.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBoxBus.BackgroundImage")));
+            this.pictureBoxBus.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBoxBus.Location = new System.Drawing.Point(318, 509);
+            this.pictureBoxBus.Name = "pictureBoxBus";
+            this.pictureBoxBus.Size = new System.Drawing.Size(300, 300);
+            this.pictureBoxBus.TabIndex = 2;
+            this.pictureBoxBus.TabStop = false;
+            this.pictureBoxBus.Click += new System.EventHandler(this.pictureBoxBus_Click);
             // 
-            // Rent
+            // pictureBoxCar
             // 
-            this.Rent.BackgroundImage = Image.FromFile("Images/rent.jpg");
-            this.Rent.Location = new System.Drawing.Point(670, 450);
-            this.Rent.Name = "Rent";
-            this.Rent.Size = new System.Drawing.Size(270, 250);
-            this.Rent.TabIndex = 3;
-            this.Rent.UseVisualStyleBackColor = true;
-            this.Rent.Click += new System.EventHandler(this.Rent_Click);
+            this.pictureBoxCar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBoxCar.BackgroundImage")));
+            this.pictureBoxCar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBoxCar.Location = new System.Drawing.Point(785, 509);
+            this.pictureBoxCar.Name = "pictureBoxCar";
+            this.pictureBoxCar.Size = new System.Drawing.Size(300, 300);
+            this.pictureBoxCar.TabIndex = 3;
+            this.pictureBoxCar.TabStop = false;
+            this.pictureBoxCar.Click += new System.EventHandler(this.pictureBoxCar_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox1.Location = new System.Drawing.Point(50, 45);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(60, 60);
+            this.pictureBox1.TabIndex = 4;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = Image.FromFile("Images/TransportBackGround.jpg");
-            this.ClientSize = new System.Drawing.Size(1280, 848);
-            this.Controls.Add(this.Rent);
-            this.Controls.Add(this.Bus);
-            this.Controls.Add(this.Train);
-            this.Controls.Add(this.Taxi);
+            this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.ClientSize = new System.Drawing.Size(1388, 882);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pictureBoxCar);
+            this.Controls.Add(this.pictureBoxBus);
+            this.Controls.Add(this.pictureBoxTrain);
+            this.Controls.Add(this.pictureBoxTaxi);
             this.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.Name = "Form2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form2";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxTaxi)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxTrain)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxBus)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Button Taxi;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
-        private System.Windows.Forms.Button Train;
-        private System.Windows.Forms.Button Bus;
-        private System.Windows.Forms.Button Rent;
+        private System.Windows.Forms.PictureBox pictureBoxTaxi;
+        private System.Windows.Forms.PictureBox pictureBoxTrain;
+        private System.Windows.Forms.PictureBox pictureBoxBus;
+        private System.Windows.Forms.PictureBox pictureBoxCar;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

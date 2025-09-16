@@ -12,37 +12,42 @@ namespace HelloAuckland
 {
     public partial class Form2 : Form
     {
-        Bus bus;
-        Train train;
-        Taxi taxi;
+        bus1 bus1;
+        Train1 train1;
+        Taxi1 taxi1;
         Rent rent;
         public Form2()
         {
             InitializeComponent();
-            bus = new Bus();
-            train = new Train();
-            taxi = new Taxi();
+            bus1 = new bus1();
+            train1 = new Train1();
+            taxi1 = new Taxi1();
             rent = new Rent();
         }
 
-        private void Taxi_Click(object sender, EventArgs e)
-        {          
-            taxi.Show();            
-        }
-
-        private void Train_Click(object sender, EventArgs e)
+        private void pictureBoxTaxi_Click(object sender, EventArgs e)
         {
-            bus.Show();
+            taxi1.Show();
         }
 
-        private void Bus_Click(object sender, EventArgs e)
+        private void pictureBoxTrain_Click(object sender, EventArgs e)
         {
-            train.Show();
+            train1.Show();
         }
 
-        private void Rent_Click(object sender, EventArgs e)
+        private void pictureBoxBus_Click(object sender, EventArgs e)
+        {
+            bus1.Show();
+        }
+
+        private void pictureBoxCar_Click(object sender, EventArgs e)
         {
             rent.Show();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
