@@ -138,5 +138,11 @@
   <ItemGroup>
     <None Include="Resources\ada-restaurant-grey-lynn-1320x607.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled %285%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
